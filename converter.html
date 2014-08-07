@@ -1,0 +1,27 @@
+<html>
+	<head>
+        <style>
+            body {
+                font-family: arial;
+                font-size: 12px;
+                background-color: #e5e5e5;
+            }
+            .alert {
+                color: #3C763D;
+                background-color: #DFF0D8;
+                border: 1px #3C763D solid;
+                padding: 3px;
+            }
+        </style>
+	</head>
+	<body style="width: 400px">
+		Start Time: <input id="startTime" max="5" style="width: 40px;">
+		End Time: <input id="endTime" max="5" style="width: 40px;">
+		Jira Time: <input id="jiraTime" readonly="readonly" style="width: 60px;">
+        <span style="display:none;" class="alert">Copied!</span>
+
+		<script src="jquery-1.11.1.min.js"></script>
+        <script src="meiomask.min.js"></script>
+		<script src="converter.js"></script>
+	</body>
+</html>
